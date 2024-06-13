@@ -1,0 +1,55 @@
+.parent{
+    width: 40%;
+    padding: 20px;
+    margin: 10% auto;
+    border-radius: 10px 10px 160px 10px;
+    box-shadow: 0px 0px 10px 10px rgb(229, 225, 225);
+}
+.first{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 10px;
+    width: 50%;
+}
+.error-day,.error-month,.error-year{
+    color: red;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(107, 15, 194);
+    margin-right: 30px;
+}
+h2{
+font-size:60px ;
+}
+
+button{
+    background-color: blueviolet;
+    width: 100%;
+    align-items: center;
+    border-radius: 100px;
+}
+button:hover{
+    background-color: black;
+}
+.separate{
+    display: flex;
+    width: 90%;
+ 
+}
+hr{
+    width:90%;
+}
